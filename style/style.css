@@ -1,0 +1,67 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a,
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Rubik Iso", cursive;
+  line-height: 1;
+  font-size: 24px;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  padding: 50px;
+}
+.block-one {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(33, 44, 192) 0%,
+    rgba(73, 192, 240, 1) 50%,
+    rgba(222, 231, 46, 0.555) 100%
+  );
+}
+.block-two {
+  padding: 250px;
+  background: darkturquoise url(../img/lavinaadidas.JPG) space center cover
+    scroll;
+}
+.block-three {
+  max-width: 1000px;
+  max-height: 500px;
+  background: rgb(217, 220, 20) url(../img/providesquare.png) no-repeat;
+  background-position: center;
+}
